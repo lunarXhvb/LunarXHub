@@ -1,6 +1,3 @@
-Here's the table converted to Japanese:
-
-```lua
 return {
     [" Fruit"] = " フルーツ",
     ["Abilities"] = "能力",
