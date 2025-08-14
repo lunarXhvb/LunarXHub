@@ -1,6 +1,3 @@
-Here's the table converted to Thai:
-
-```lua
 return {
     [" Fruit"] = " ผลไม้",
     ["Abilities"] = "ความสามารถ",
