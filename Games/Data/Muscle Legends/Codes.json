@@ -1,1 +1,66 @@
-
+return = {
+    ["junglegym500"] = {
+        type = "strength",
+        amount = 500
+    },
+    ["epicmuscle20"] = {
+        type = "strength",
+        amount = 2000
+    },
+    ["ultimate250"] = {
+        type = "strength",
+        amount = 250
+    },
+    ["mightygems2500"] = {
+        type = "gems",
+        amount = 2500
+    },
+    ["SkyAgility50"] = {
+        type = "agility",
+        amount = 500
+    },
+    ["SpaceGems50"] = {
+        type = "gems",
+        amount = 5000
+    },
+    ["Speedy50"] = {
+        type = "agility",
+        amount = 250
+    },
+    ["SuperMuscle100"] = {
+        type = "strength",
+        amount = 200
+    },
+    ["SuperPunch100"] = {
+        type = "strength",
+        amount = 100
+    },
+    ["MegaLift50"] = {
+        type = "strength",
+        amount = 250
+    },
+    ["MillionWarriors"] = {
+        type = "strength",
+        amount = 1500
+    },
+    ["MuscleStorm50"] = {
+        type = "strength",
+        amount = 1500
+    },
+    ["Launch250"] = {
+        type = "gems",
+        amount = 250
+    },
+    ["GalaxyCrystal50"] = {
+        type = "gems",
+        amount = 5000
+    },
+    ["FrostGems10"] = {
+        type = "gems",
+        amount = 10000
+    },
+    ["EpicReward500"] = {
+        type = "gems",
+        amount = 500
+    }
+}
