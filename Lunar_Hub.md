@@ -1,7 +1,7 @@
 # 🌙 Lunar Hub
 
 <p align="center">
-  <img src="https://github.com/lunarXhvb/LunarXHub/blob/main/Images/generated-image-7d13f8f2-d434-43ae-8b43-819720f7b783%20(3).jpg" alt="Lunar Hub Logo" width="380">
+  <img src="https://github.com/lunarXhvb/LunarXHub/blob/main/Images/generated-image-7d13f8f2-d434-43ae-8b43-819720f7b783%20(3).jpg" alt="Lunar Hub Logo" width="180">
 </p>
 
 <h1 align="center">
@@ -104,12 +104,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/lunarXhub/main.lua"))
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://github.com/lunarXhvb/LunarXHub/blob/main/Images/Havoc.jpg" width="80" height="80" style="border-radius: 50%;"><br>
+      <img src="https://github.com/lunarXhvb/Lunar-Hub/blob/main/assets/havoc.gif" width="80" height="80" style="border-radius: 50%;"><br>
       <b style="color:#22c55e;">Havoc</b><br>
       👑 Owner & Lead Developer
     </td>
     <td align="center">
-      <img src="https://github.com/lunarXhvb/LunarXHub/blob/main/Images/Pxrson.jpg" width="80" height="80" style="border-radius: 50%;"><br>
+      <img src="https://github.com/lunarXhvb/Lunar-Hub/blob/main/assets/pxson.gif" width="80" height="80" style="border-radius: 50%;"><br>
       <b style="color:#6C63FF;">Pxrson</b><br>
       ⚡ Co-Owner & Developer
     </td>
@@ -145,7 +145,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/lunarXhub/main.lua"))
 <p align="center">
   Made with 💜 by the Lunar Hub Team • © 2025 All Rights Reserved
   <br>
-  <a href="https://discord.gg/fpChx9NT">
+  <a href="https://discord.gg/your-discord-invite">
     <img src="https://img.shields.io/badge/Join_Our-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
   </a>
 </p>
