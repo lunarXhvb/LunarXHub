@@ -1,0 +1,139 @@
+return = {
+    ["Tribal Overlord"] = {
+            specialBoost = "x2 Rebirths",
+            stackable = true,
+            tradeable = false,
+            evolved = true,
+            pack = "Chaos Overlord Pack",
+            cost = 2999,
+            currency = "Robux",
+            spinnable = false,
+            baseStats = {
+                strength = 3750,
+                durability = 2500,
+                agility = 0,
+                damage = 50000
+            }
+        },
+        ["Swift Samurai"] = {
+            specialBoost = "+15% Rep Speed",
+            stackable = true,
+            tradeable = false,
+            evolved = true,
+            pack = "Chaos Overlord Pack",
+            cost = 2999,
+            currency = "Robux",
+            spinnable = false,
+            baseStats = {
+                strength = 1750,
+                durability = 3250,
+                agility = 2500,
+                damage = 0
+            }
+        },
+        ["Mighty Monster"] = {
+            specialBoost = "+50% Health",
+            stackable = true,
+            tradeable = false,
+            evolved = true,
+            pack = "Chaos Overlord Pack",
+            cost = 2999,
+            currency = "Robux",
+            spinnable = false,
+            baseStats = {
+                strength = 2250,
+                durability = 5000,
+                agility = 1000,
+                damage = 0
+            }
+        },
+        ["Wild Wizard"] = {
+            specialBoost = "+50% Damage",
+            stackable = true,
+            tradeable = false,
+            evolved = true,
+            pack = "Chaos Overlord Pack",
+            cost = 2999,
+            currency = "Robux",
+            spinnable = false,
+            baseStats = {
+                strength = 0,
+                durability = 4000,
+                agility = 750,
+                damage = 75000
+            }
+        },
+        ["Sarge"] = {
+            specialBoost = "+1 Daily Spin",
+            stackable = true,
+            tradeable = false,
+            evolved = true,
+            pack = "Multiverse Muscle Pack",
+            cost = 2499,
+            currency = "Robux",
+            ranking = "2nd best strength",
+            baseStats = {
+                strength = 2500,
+                durability = 1250,
+                agility = 0,
+                damage = 22500
+            }
+        },
+        ["Small Fry"] = {
+            specialBoost = "+25% Health",
+            stackable = true,
+            tradeable = false,
+            evolved = true,
+            pack = "Multiverse Muscle Pack",
+            cost = 2499,
+            currency = "Robux",
+            ranking = "2nd best durability",
+            baseStats = {
+                strength = 1500,
+                durability = 3750,
+                agility = 0,
+                damage = 17500
+            }
+        },
+        ["Speedy Sally"] = {
+            specialBoost = "-10% Rebirth Cost",
+            stackable = true,
+            tradeable = false,
+            evolved = true,
+            pack = "Multiverse Muscle Pack",
+            cost = 2499,
+            currency = "Robux",
+            ranking = "2nd best agility",
+            baseStats = {
+                strength = 1000,
+                durability = 2500,
+                agility = 1500,
+                damage = 0
+            }
+        },
+        ["Chaos Sorcerer"] = {
+            specialBoost = "+25% Damage",
+            stackable = true,
+            tradeable = false,
+            evolved = true,
+            pack = "Multiverse Muscle Pack",
+            cost = 2499,
+            currency = "Robux",
+            ranking = "2nd best damage",
+            baseStats = {
+                strength = 0,
+                durability = 3000,
+                agility = 400,
+                damage = 40000
+            }
+        },
+        ["Jungle Captain"] = {
+            specialBoost = "1+ Protein Egg, 1+ Tropical Shake",
+            stackable = true,
+            tradeable = false,
+            cooldown = 3600,
+            spinnable = true,
+            pack = "Jungle Captain"
+        }
+    }
+}
