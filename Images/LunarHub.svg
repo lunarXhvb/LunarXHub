@@ -1,0 +1,183 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="spaceGradient" cx="50%" cy="30%">
+      <stop offset="0%" style="stop-color:#1a1a3e"/>
+      <stop offset="40%" style="stop-color:#0d1421"/>
+      <stop offset="80%" style="stop-color:#050810"/>
+      <stop offset="100%" style="stop-color:#000000"/>
+    </radialGradient>
+    
+    <radialGradient id="moonGradient" cx="35%" cy="25%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="30%" style="stop-color:#f8fafc"/>
+      <stop offset="60%" style="stop-color:#e2e8f0"/>
+      <stop offset="85%" style="stop-color:#cbd5e0"/>
+      <stop offset="100%" style="stop-color:#94a3b8"/>
+    </radialGradient>
+    
+    <linearGradient id="whiteTextGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="25%" style="stop-color:#f8fafc"/>
+      <stop offset="50%" style="stop-color:#f1f5f9"/>
+      <stop offset="75%" style="stop-color:#e2e8f0"/>
+      <stop offset="100%" style="stop-color:#ffffff"/>
+    </linearGradient>
+    
+    <radialGradient id="nebula1" cx="20%" cy="60%">
+      <stop offset="0%" style="stop-color:#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="50%" style="stop-color:#a855f7" stop-opacity="0.15"/>
+      <stop offset="100%" style="stop-color:#7c3aed" stop-opacity="0.05"/>
+    </radialGradient>
+    
+    <radialGradient id="nebula2" cx="80%" cy="20%">
+      <stop offset="0%" style="stop-color:#06b6d4" stop-opacity="0.25"/>
+      <stop offset="50%" style="stop-color:#0891b2" stop-opacity="0.12"/>
+      <stop offset="100%" style="stop-color:#0e7490" stop-opacity="0.03"/>
+    </radialGradient>
+    
+    <filter id="megaGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="starGlow" x="-200%" y="-200%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <radialGradient id="moonShadow" cx="70%" cy="70%">
+      <stop offset="0%" style="stop-color:#000000" stop-opacity="0"/>
+      <stop offset="60%" style="stop-color:#1e293b" stop-opacity="0.3"/>
+      <stop offset="100%" style="stop-color:#0f172a" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="1200" height="800" fill="url(#spaceGradient)"/>
+  
+  <ellipse cx="250" cy="500" rx="300" ry="200" fill="url(#nebula1)" transform="rotate(-30 250 500)">
+    <animateTransform attributeName="transform" type="rotate" values="-30 250 500;-25 250 500;-30 250 500" dur="20s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="950" cy="200" rx="250" ry="150" fill="url(#nebula2)" transform="rotate(45 950 200)">
+    <animateTransform attributeName="transform" type="rotate" values="45 950 200;50 950 200;45 950 200" dur="25s" repeatCount="indefinite"/>
+  </ellipse>
+  
+  <g id="stars">
+    <circle cx="150" cy="120" r="2" fill="#ffffff" filter="url(#starGlow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="80" r="1.5" fill="#e0f2fe" filter="url(#starGlow)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="100" r="2.5" fill="#fef3c7" filter="url(#starGlow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="580" cy="60" r="1.8" fill="#ddd6fe" filter="url(#starGlow)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="140" r="2.2" fill="#ffffff" filter="url(#starGlow)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="920" cy="110" r="1.6" fill="#fecaca" filter="url(#starGlow)">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="180" r="2" fill="#bfdbfe" filter="url(#starGlow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="200" cy="300" r="1" fill="#ffffff" opacity="0.6">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="350" r="1.2" fill="#e0f2fe" opacity="0.5">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="280" r="0.8" fill="#fef3c7" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="400" r="1.1" fill="#ffffff" opacity="0.4">
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <g id="moon" transform="translate(0,0)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-15; 0,0" dur="8s" repeatCount="indefinite"/>
+    
+    <circle cx="900" cy="200" r="180" fill="#f8fafc" opacity="0.1" filter="url(#megaGlow)"/>
+    
+    <circle cx="900" cy="200" r="120" fill="url(#moonGradient)" filter="url(#megaGlow)"/>
+    
+    <circle cx="900" cy="200" r="120" fill="url(#moonShadow)"/>
+    
+    <ellipse cx="870" cy="170" rx="18" ry="15" fill="#94a3b8" opacity="0.5"/>
+    <ellipse cx="920" cy="220" rx="12" ry="10" fill="#94a3b8" opacity="0.4"/>
+    <ellipse cx="930" cy="160" rx="8" ry="7" fill="#64748b" opacity="0.6"/>
+    <ellipse cx="850" cy="210" rx="10" ry="8" fill="#94a3b8" opacity="0.3"/>
+    <ellipse cx="890" cy="240" rx="6" ry="5" fill="#64748b" opacity="0.5"/>
+    <ellipse cx="940" cy="190" rx="7" ry="6" fill="#94a3b8" opacity="0.4"/>
+    
+    <path d="M 850 180 Q 880 175 900 185 Q 920 195 940 180" stroke="#cbd5e0" stroke-width="1" fill="none" opacity="0.3"/>
+    <path d="M 860 220 Q 885 215 910 225 Q 930 235 945 220" stroke="#e2e8f0" stroke-width="0.8" fill="none" opacity="0.2"/>
+  </g>
+  
+  <g id="shootingStar1" opacity="0">
+    <circle cx="200" cy="100" r="3" fill="#ffffff" filter="url(#starGlow)"/>
+    <path d="M 200 100 L 120 100 L 140 100" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <path d="M 200 100 L 100 100 L 130 100" stroke="#bfdbfe" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 200 100 L 80 100 L 120 100" stroke="#dbeafe" stroke-width="1" opacity="0.4"/>
+    
+    <animateTransform attributeName="transform" type="translate" values="0,0; 400,200" dur="2s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2s" begin="3s" repeatCount="indefinite"/>
+  </g>
+  
+  <g id="mainTitle">
+    <!-- Shadow/3D effect -->
+    <text x="605" y="425" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="120" font-weight="900" fill="#1e293b" opacity="0.6">
+      LUNAR
+    </text>
+    
+    <text x="600" y="420" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="120" font-weight="900" fill="#ffffff" filter="url(#textGlow)">
+      LUNAR
+    </text>
+    
+    <text x="605" y="535" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="80" font-weight="900" fill="#1e293b" opacity="0.6">
+      HUB
+    </text>
+    
+    <text x="600" y="530" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="80" font-weight="900" fill="#ffffff" filter="url(#textGlow)">
+      HUB
+    </text>
+  </g>
+  
+  <text x="600" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#94a3b8" opacity="0.9">
+    ULTIMATE GAMING EXPERIENCE
+  </text>
+  
+  <g id="bottomDecor">
+    <circle cx="200" cy="720" r="3" fill="#8b5cf6" opacity="0.4">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="740" r="2.5" fill="#06b6d4" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <line x1="100" y1="750" x2="500" y2="750" stroke="url(#whiteTextGradient)" stroke-width="2" opacity="0.3">
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="700" y1="750" x2="1100" y2="750" stroke="url(#whiteTextGradient)" stroke-width="2" opacity="0.3">
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="5s" begin="2.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</svg>
