@@ -1,7 +1,7 @@
 # 🌙 Lunar Hub
 
 <p align="center">
-  <img src="https://github.com/lunarXhvb/LunarXHub/blob/main/Images/Lunar.png" alt="Lunar Hub Logo" width="180">
+  <img src="https://github.com/lunarXhvb/LunarXHub/blob/main/Images/Lunar.jpg" alt="Lunar Hub Logo" width="180">
 </p>
 
 <h1 align="center">
