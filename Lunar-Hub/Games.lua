@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lunarXhvb/LunarXHub/refs/heads/main/Games/Games/Files/MuscleLegends.luau"))()
 local Games = {
   [3623096087] = "", -- Muscle Legends [ LUNAR UI ]
   [3623096087] = "https://raw.githubusercontent.com/lunarXhvb/LunarXHub/refs/heads/main/Games/Games/Files/MuscleLegends.luau", -- Muscle Legends [ FLUENT ]
