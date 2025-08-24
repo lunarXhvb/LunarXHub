@@ -1,6 +1,6 @@
 local Games = {
   [3623096087] = "", -- Muscle Legends [ LUNAR UI ]
-  [3623096087] = "", -- Muscle Legends [ FLUENT ]
+  [3623096087] = "https://raw.githubusercontent.com/lunarXhvb/LunarXHub/refs/heads/main/Games/Games/Files/MuscleLegends.luau.txt", -- Muscle Legends [ FLUENT ]
   [3101667897] = "", -- Legends Of Speed
   [126884695634066] = "", -- Grow A Garden
   [2753915549] = "https://raw.githubusercontent.com/lunarXhvb/LunarXHub/refs/heads/main/Games/Games/Files/Blox-Fruits.luau.txt", -- Blox Fruits
